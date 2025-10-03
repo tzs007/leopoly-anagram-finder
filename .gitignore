@@ -1,0 +1,50 @@
+# Root logs and dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+
+# Build and cache outputs
+build/
+dist/
+.tmp/
+.cache/
+coverage/
+
+# React frontend artifacts
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env*
+frontend/.parcel-cache/
+frontend/.eslintcache
+frontend/.pnp/
+frontend/.pnp.js
+
+# Express backend artifacts
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/logs/
+backend/*.log
+backend/.env
+backend/.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.idea/
+.vscode/
+
+# Misc
+*.log
+*.pid
+*.seed
+*.pid.lock

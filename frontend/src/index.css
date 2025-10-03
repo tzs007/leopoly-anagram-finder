@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "@fontsource/poppins/400.css";
+
+@tailwind utilities;
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+}
+
+body,
+html {
+  font-family: var(--font-poppins) !important;
+  width: 100%;
+  height: 100vh;
+}
